@@ -572,3 +572,633 @@ Training Begins - AdamOptimizer
 2016-11-27 15:21:05,736 - INFO - ***Accuracy - Full Training:       98.95%
 2016-11-27 15:21:07,527 - INFO - ***Accuracy - Full Validation:       97.54%
 2016-11-27 15:21:07,528 - INFO - Time usage: 0:03:26
+2016-11-27 15:28:14,888 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-27 15:28:14,888 - INFO - Learning Rate: 0.005
+2016-11-27 15:28:14,889 - INFO - Batch Size: 100
+2016-11-27 15:28:14,889 - INFO - Kernal Size: 5 x 5
+2016-11-27 15:28:14,890 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-27 15:28:14,891 - INFO - layer_convn1: Tensor("Relu_30:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 15:28:14,891 - INFO - layer_convn2: Tensor("Relu_30:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 15:28:14,891 - INFO - layer_fc1: Tensor("Relu_30:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 15:28:14,892 - INFO - logits: Tensor("Relu_30:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 15:28:35,202 - DEBUG - Epoch:     1;  cost=1.861460567
+2016-11-27 15:28:35,238 - DEBUG - Accuracy(training batch): 42.00%
+2016-11-27 15:28:42,090 - INFO - ***Accuracy - Full Training:       42.81%
+2016-11-27 15:28:43,736 - INFO - ***Accuracy - Full Validation:       42.89%
+2016-11-27 15:29:06,545 - DEBUG - Epoch:     2;  cost=1.204211593
+2016-11-27 15:29:06,579 - DEBUG - Accuracy(training batch): 58.00%
+2016-11-27 15:29:33,827 - DEBUG - Epoch:     3;  cost=0.908797920
+2016-11-27 15:29:33,849 - DEBUG - Accuracy(training batch): 71.00%
+2016-11-27 15:29:57,771 - DEBUG - Epoch:     4;  cost=0.811299920
+2016-11-27 15:29:57,795 - DEBUG - Accuracy(training batch): 77.00%
+2016-11-27 15:30:24,496 - DEBUG - Epoch:     5;  cost=0.713264465
+2016-11-27 15:30:24,521 - DEBUG - Accuracy(training batch): 80.00%
+2016-11-27 15:30:49,631 - DEBUG - Epoch:     6;  cost=0.718704045
+2016-11-27 15:30:49,659 - DEBUG - Accuracy(training batch): 76.00%
+2016-11-27 15:31:15,806 - DEBUG - Epoch:     7;  cost=0.665424824
+2016-11-27 15:31:15,854 - DEBUG - Accuracy(training batch): 79.00%
+2016-11-27 15:31:41,467 - DEBUG - Epoch:     8;  cost=0.625370920
+2016-11-27 15:31:41,498 - DEBUG - Accuracy(training batch): 76.00%
+2016-11-27 15:32:06,661 - DEBUG - Epoch:     9;  cost=0.600080550
+2016-11-27 15:32:06,690 - DEBUG - Accuracy(training batch): 74.00%
+2016-11-27 15:32:30,473 - DEBUG - Epoch:    10;  cost=0.618321836
+2016-11-27 15:32:30,493 - DEBUG - Accuracy(training batch): 79.00%
+2016-11-27 15:32:30,493 - INFO - Optimization Finished!
+2016-11-27 15:32:39,394 - INFO - ***Accuracy - Full Training:       81.07%
+2016-11-27 15:32:41,706 - INFO - ***Accuracy - Full Validation:       78.87%
+2016-11-27 15:32:41,708 - INFO - Time usage: 0:04:26
+2016-11-27 15:37:20,296 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-27 15:37:20,297 - INFO - Learning Rate: 0.0005
+2016-11-27 15:37:20,297 - INFO - Batch Size: 100
+2016-11-27 15:37:20,298 - INFO - Kernal Size: 5 x 5
+2016-11-27 15:37:20,299 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-27 15:37:20,299 - INFO - layer_convn1: Tensor("Relu_33:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 15:37:20,300 - INFO - layer_convn2: Tensor("Relu_33:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 15:37:20,301 - INFO - layer_fc1: Tensor("Relu_33:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 15:37:20,301 - INFO - logits: Tensor("Relu_33:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 15:37:39,712 - DEBUG - Epoch:     1;  cost=2.900842190
+2016-11-27 15:37:39,748 - DEBUG - Accuracy(training batch): 21.00%
+2016-11-27 15:37:45,846 - INFO - ***Accuracy - Full Training:       23.36%
+2016-11-27 15:37:47,455 - INFO - ***Accuracy - Full Validation:       24.19%
+2016-11-27 15:38:05,229 - DEBUG - Epoch:     2;  cost=1.874091744
+2016-11-27 15:38:05,248 - DEBUG - Accuracy(training batch): 35.00%
+2016-11-27 15:38:23,338 - DEBUG - Epoch:     3;  cost=1.490451694
+2016-11-27 15:38:23,357 - DEBUG - Accuracy(training batch): 53.00%
+2016-11-27 15:38:42,930 - DEBUG - Epoch:     4;  cost=1.215439439
+2016-11-27 15:38:42,949 - DEBUG - Accuracy(training batch): 58.00%
+2016-11-27 15:39:01,018 - DEBUG - Epoch:     5;  cost=1.038076043
+2016-11-27 15:39:01,037 - DEBUG - Accuracy(training batch): 64.00%
+2016-11-27 15:39:18,953 - DEBUG - Epoch:     6;  cost=0.798429728
+2016-11-27 15:39:18,973 - DEBUG - Accuracy(training batch): 73.00%
+2016-11-27 15:39:36,656 - DEBUG - Epoch:     7;  cost=0.523898005
+2016-11-27 15:39:36,676 - DEBUG - Accuracy(training batch): 80.00%
+2016-11-27 15:39:54,581 - DEBUG - Epoch:     8;  cost=0.336898029
+2016-11-27 15:39:54,600 - DEBUG - Accuracy(training batch): 88.00%
+2016-11-27 15:40:15,392 - DEBUG - Epoch:     9;  cost=0.195129529
+2016-11-27 15:40:15,411 - DEBUG - Accuracy(training batch): 96.00%
+2016-11-27 15:40:33,678 - DEBUG - Epoch:    10;  cost=0.098629646
+2016-11-27 15:40:33,702 - DEBUG - Accuracy(training batch): 98.00%
+2016-11-27 15:40:33,702 - INFO - Optimization Finished!
+2016-11-27 15:40:39,837 - INFO - ***Accuracy - Full Training:       95.86%
+2016-11-27 15:40:41,474 - INFO - ***Accuracy - Full Validation:       94.34%
+2016-11-27 15:40:41,475 - INFO - Time usage: 0:03:21
+2016-11-27 15:42:47,874 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-27 15:42:47,874 - INFO - Learning Rate: 0.001
+2016-11-27 15:42:47,875 - INFO - Batch Size: 64
+2016-11-27 15:42:47,878 - INFO - Kernal Size: 5 x 5
+2016-11-27 15:42:47,880 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-27 15:42:47,881 - INFO - layer_convn1: Tensor("Relu_36:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 15:42:47,881 - INFO - layer_convn2: Tensor("Relu_36:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 15:42:47,882 - INFO - layer_fc1: Tensor("Relu_36:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 15:42:47,884 - INFO - logits: Tensor("Relu_36:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 15:43:07,957 - DEBUG - Epoch:     1;  cost=1.775526047
+2016-11-27 15:43:07,987 - DEBUG - Accuracy(training batch): 35.94%
+2016-11-27 15:43:14,280 - INFO - ***Accuracy - Full Training:         38.38%
+2016-11-27 15:43:15,937 - INFO - ***Accuracy - Full Validation:       38.79%
+2016-11-27 15:43:34,624 - DEBUG - Epoch:     2;  cost=1.245484591
+2016-11-27 15:43:34,637 - DEBUG - Accuracy(training batch): 56.25%
+2016-11-27 15:43:55,701 - DEBUG - Epoch:     3;  cost=0.547480404
+2016-11-27 15:43:55,715 - DEBUG - Accuracy(training batch): 76.56%
+2016-11-27 15:44:15,925 - DEBUG - Epoch:     4;  cost=0.302978277
+2016-11-27 15:44:15,940 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-27 15:44:34,866 - DEBUG - Epoch:     5;  cost=0.287136912
+2016-11-27 15:44:34,879 - DEBUG - Accuracy(training batch): 89.06%
+2016-11-27 15:44:53,745 - DEBUG - Epoch:     6;  cost=0.252767563
+2016-11-27 15:44:53,757 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-27 15:45:13,146 - DEBUG - Epoch:     7;  cost=0.117735505
+2016-11-27 15:45:13,159 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-27 15:45:33,105 - DEBUG - Epoch:     8;  cost=0.228521034
+2016-11-27 15:45:33,118 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-27 15:45:52,395 - DEBUG - Epoch:     9;  cost=0.068188548
+2016-11-27 15:45:52,411 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-27 15:46:11,761 - DEBUG - Epoch:    10;  cost=0.037653588
+2016-11-27 15:46:11,773 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-27 15:46:11,773 - INFO - Optimization Finished!
+2016-11-27 15:46:18,145 - INFO - ***Accuracy - Full Training:         98.16%
+2016-11-27 15:46:19,762 - INFO - ***Accuracy - Full Validation:       96.99%
+2016-11-27 15:46:19,763 - INFO - Time usage: 0:03:31
+2016-11-27 15:50:54,402 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-27 15:50:54,403 - INFO - Learning Rate: 0.001
+2016-11-27 15:50:54,403 - INFO - Batch Size: 64
+2016-11-27 15:50:54,403 - INFO - Kernal Size: 3 x 3
+2016-11-27 15:50:54,404 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-27 15:50:54,404 - INFO - layer_convn1: Tensor("Relu_39:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 15:50:54,407 - INFO - layer_convn2: Tensor("Relu_39:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 15:50:54,410 - INFO - layer_fc1: Tensor("Relu_39:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 15:50:54,411 - INFO - logits: Tensor("Relu_39:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 15:51:06,772 - DEBUG - Epoch:     1;  cost=2.248030186
+2016-11-27 15:51:06,798 - DEBUG - Accuracy(training batch): 26.56%
+2016-11-27 15:51:10,287 - INFO - ***Accuracy - Full Training:         33.31%
+2016-11-27 15:51:11,278 - INFO - ***Accuracy - Full Validation:       34.38%
+2016-11-27 15:51:22,075 - DEBUG - Epoch:     2;  cost=1.815457106
+2016-11-27 15:51:22,084 - DEBUG - Accuracy(training batch): 35.94%
+2016-11-27 15:51:33,705 - DEBUG - Epoch:     3;  cost=1.649586439
+2016-11-27 15:51:33,712 - DEBUG - Accuracy(training batch): 45.31%
+2016-11-27 15:51:44,432 - DEBUG - Epoch:     4;  cost=1.680540681
+2016-11-27 15:51:44,440 - DEBUG - Accuracy(training batch): 50.00%
+2016-11-27 15:51:56,180 - DEBUG - Epoch:     5;  cost=1.510161757
+2016-11-27 15:51:56,189 - DEBUG - Accuracy(training batch): 54.69%
+2016-11-27 15:52:07,231 - DEBUG - Epoch:     6;  cost=1.370630860
+2016-11-27 15:52:07,239 - DEBUG - Accuracy(training batch): 57.81%
+2016-11-27 15:52:17,960 - DEBUG - Epoch:     7;  cost=1.200809956
+2016-11-27 15:52:17,968 - DEBUG - Accuracy(training batch): 65.62%
+2016-11-27 15:52:28,690 - DEBUG - Epoch:     8;  cost=1.051235914
+2016-11-27 15:52:28,697 - DEBUG - Accuracy(training batch): 68.75%
+2016-11-27 15:52:39,376 - DEBUG - Epoch:     9;  cost=0.879077911
+2016-11-27 15:52:39,383 - DEBUG - Accuracy(training batch): 71.88%
+2016-11-27 15:52:50,353 - DEBUG - Epoch:    10;  cost=0.670321226
+2016-11-27 15:52:50,360 - DEBUG - Accuracy(training batch): 76.56%
+2016-11-27 15:52:50,361 - INFO - Optimization Finished!
+2016-11-27 15:52:54,864 - INFO - ***Accuracy - Full Training:         81.15%
+2016-11-27 15:52:55,860 - INFO - ***Accuracy - Full Validation:       79.02%
+2016-11-27 15:52:55,861 - INFO - Time usage: 0:02:01
+2016-11-27 15:53:27,229 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-27 15:53:27,229 - INFO - Learning Rate: 0.001
+2016-11-27 15:53:27,230 - INFO - Batch Size: 64
+2016-11-27 15:53:27,230 - INFO - Kernal Size: 7 x 7
+2016-11-27 15:53:27,230 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-27 15:53:27,231 - INFO - layer_convn1: Tensor("Relu_42:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 15:53:27,231 - INFO - layer_convn2: Tensor("Relu_42:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 15:53:27,231 - INFO - layer_fc1: Tensor("Relu_42:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 15:53:27,231 - INFO - logits: Tensor("Relu_42:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 15:53:57,309 - DEBUG - Epoch:     1;  cost=1.525359392
+2016-11-27 15:53:57,351 - DEBUG - Accuracy(training batch): 51.56%
+2016-11-27 15:54:08,555 - INFO - ***Accuracy - Full Training:         48.63%
+2016-11-27 15:54:11,542 - INFO - ***Accuracy - Full Validation:       48.95%
+2016-11-27 15:54:41,788 - DEBUG - Epoch:     2;  cost=0.531999230
+2016-11-27 15:54:41,829 - DEBUG - Accuracy(training batch): 84.38%
+2016-11-27 15:55:25,856 - DEBUG - Epoch:     3;  cost=0.262772977
+2016-11-27 15:55:25,878 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-27 15:55:56,844 - DEBUG - Epoch:     4;  cost=0.194557473
+2016-11-27 15:55:56,877 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-27 15:56:57,216 - DEBUG - Epoch:     5;  cost=0.039668642
+2016-11-27 15:56:57,260 - DEBUG - Accuracy(training batch): 98.44%
+2016-11-27 15:57:57,607 - DEBUG - Epoch:     6;  cost=0.019709911
+2016-11-27 15:57:57,659 - DEBUG - Accuracy(training batch): 100.00%
+2016-11-27 15:58:48,937 - DEBUG - Epoch:     7;  cost=0.031276502
+2016-11-27 15:58:48,970 - DEBUG - Accuracy(training batch): 100.00%
+2016-11-27 15:59:39,359 - DEBUG - Epoch:     8;  cost=0.010899957
+2016-11-27 15:59:39,399 - DEBUG - Accuracy(training batch): 100.00%
+2016-11-27 16:00:30,719 - DEBUG - Epoch:     9;  cost=0.072319701
+2016-11-27 16:00:30,753 - DEBUG - Accuracy(training batch): 98.44%
+2016-11-27 16:01:20,244 - DEBUG - Epoch:    10;  cost=0.017699484
+2016-11-27 16:01:20,273 - DEBUG - Accuracy(training batch): 100.00%
+2016-11-27 16:01:20,274 - INFO - Optimization Finished!
+2016-11-27 16:01:37,531 - INFO - ***Accuracy - Full Training:         98.33%
+2016-11-27 16:01:42,280 - INFO - ***Accuracy - Full Validation:       96.88%
+2016-11-27 16:01:42,281 - INFO - Time usage: 0:08:14
+2016-11-27 16:19:00,164 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-27 16:19:00,219 - INFO - Learning Rate: 0.001
+2016-11-27 16:19:00,219 - INFO - Batch Size: 64
+2016-11-27 16:19:00,220 - INFO - Kernal Size: 5 x 5
+2016-11-27 16:19:00,220 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-27 16:19:00,220 - INFO - layer_convn1: Tensor("Relu_45:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 16:19:00,221 - INFO - layer_convn2: Tensor("Relu_45:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 16:19:00,223 - INFO - layer_fc1: Tensor("Relu_45:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 16:19:00,224 - INFO - logits: Tensor("Relu_45:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 16:19:39,104 - DEBUG - Epoch:     1;  cost=1.832343817
+2016-11-27 16:19:39,156 - DEBUG - Accuracy(training batch): 37.50%
+2016-11-27 16:19:49,665 - INFO - ***Accuracy - Full Training:         38.17%
+2016-11-27 16:19:52,597 - INFO - ***Accuracy - Full Validation:       38.24%
+2016-11-27 16:20:25,608 - DEBUG - Epoch:     2;  cost=1.125159025
+2016-11-27 16:20:25,628 - DEBUG - Accuracy(training batch): 60.94%
+2016-11-27 16:20:57,058 - DEBUG - Epoch:     3;  cost=0.542190611
+2016-11-27 16:20:57,079 - DEBUG - Accuracy(training batch): 81.25%
+2016-11-27 16:21:27,842 - DEBUG - Epoch:     4;  cost=0.237587452
+2016-11-27 16:21:27,882 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-27 16:22:04,266 - DEBUG - Epoch:     5;  cost=0.137332469
+2016-11-27 16:22:04,292 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-27 16:22:40,739 - DEBUG - Epoch:     6;  cost=0.107416786
+2016-11-27 16:22:40,760 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-27 16:23:13,677 - DEBUG - Epoch:     7;  cost=0.052359387
+2016-11-27 16:23:13,702 - DEBUG - Accuracy(training batch): 98.44%
+2016-11-27 16:23:46,569 - DEBUG - Epoch:     8;  cost=0.013539235
+2016-11-27 16:23:46,587 - DEBUG - Accuracy(training batch): 100.00%
+2016-11-27 16:24:18,247 - DEBUG - Epoch:     9;  cost=0.099171698
+2016-11-27 16:24:18,264 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-27 16:24:50,811 - DEBUG - Epoch:    10;  cost=0.003672989
+2016-11-27 16:24:50,834 - DEBUG - Accuracy(training batch): 100.00%
+2016-11-27 16:24:50,835 - INFO - Optimization Finished!
+2016-11-27 16:25:01,961 - INFO - ***Accuracy - Full Training:         98.88%
+2016-11-27 16:25:04,734 - INFO - ***Accuracy - Full Validation:       97.42%
+2016-11-27 16:25:04,735 - INFO - Time usage: 0:06:04
+2016-11-27 16:25:19,323 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-27 16:25:19,324 - INFO - Learning Rate: 0.001
+2016-11-27 16:25:19,325 - INFO - Batch Size: 64
+2016-11-27 16:25:19,325 - INFO - Kernal Size: 5 x 5
+2016-11-27 16:25:19,326 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-27 16:25:19,327 - INFO - layer_convn1: Tensor("Relu_45:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 16:25:19,327 - INFO - layer_convn2: Tensor("Relu_46:0", shape=(?, 8, 8, 32), dtype=float32)
+2016-11-27 16:25:19,328 - INFO - layer_fc1: Tensor("Relu_47:0", shape=(?, 128), dtype=float32)
+2016-11-27 16:25:19,329 - INFO - logits: Tensor("Add_57:0", shape=(?, 43), dtype=float32)
+2016-11-27 17:06:43,329 - DEBUG - Epoch:     1;  cost=1.913234711
+2016-11-27 17:06:43,477 - DEBUG - Accuracy(training batch): 40.62%
+2016-11-27 17:07:18,634 - DEBUG - Epoch:     2;  cost=1.164264441
+2016-11-27 17:07:18,665 - DEBUG - Accuracy(training batch): 62.50%
+2016-11-27 17:07:52,754 - DEBUG - Epoch:     3;  cost=0.616941214
+2016-11-27 17:07:52,791 - DEBUG - Accuracy(training batch): 81.25%
+2016-11-27 17:08:28,459 - DEBUG - Epoch:     4;  cost=0.348375112
+2016-11-27 17:08:28,615 - DEBUG - Accuracy(training batch): 87.50%
+2016-11-27 17:08:58,357 - DEBUG - Epoch:     5;  cost=0.197583169
+2016-11-27 17:08:58,949 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-27 17:09:39,404 - DEBUG - Epoch:     6;  cost=0.066048458
+2016-11-27 17:09:39,790 - DEBUG - Accuracy(training batch): 98.44%
+2016-11-27 17:10:07,990 - DEBUG - Epoch:     7;  cost=0.085028827
+2016-11-27 17:10:08,660 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-27 17:10:46,551 - DEBUG - Epoch:     8;  cost=0.030718971
+2016-11-27 17:10:46,709 - DEBUG - Accuracy(training batch): 98.44%
+2016-11-27 17:22:09,888 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-27 17:22:09,888 - INFO - Learning Rate: 0.001
+2016-11-27 17:22:09,889 - INFO - Batch Size: 64
+2016-11-27 17:22:09,889 - INFO - Kernal Size: 5 x 5
+2016-11-27 17:22:09,890 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-27 17:22:09,891 - INFO - layer_convn1: Tensor("Relu:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 17:22:09,891 - INFO - layer_convn2: Tensor("Relu_1:0", shape=(?, 8, 8, 32), dtype=float32)
+2016-11-27 17:22:09,892 - INFO - layer_fc1: Tensor("Relu_2:0", shape=(?, 128), dtype=float32)
+2016-11-27 17:22:09,894 - INFO - logits: Tensor("Add_3:0", shape=(?, 43), dtype=float32)
+2016-11-27 17:22:28,553 - DEBUG - Epoch:     1;  cost=1.859109282
+2016-11-27 17:22:28,568 - DEBUG - Accuracy(training batch): 35.94%
+2016-11-27 17:23:01,259 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-27 17:23:01,260 - INFO - Learning Rate: 0.001
+2016-11-27 17:23:01,260 - INFO - Batch Size: 64
+2016-11-27 17:23:01,261 - INFO - Kernal Size: 5 x 5
+2016-11-27 17:23:01,262 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-27 17:23:01,263 - INFO - layer_convn1: Tensor("Relu_3:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 17:23:01,264 - INFO - layer_convn2: Tensor("Relu_4:0", shape=(?, 8, 8, 32), dtype=float32)
+2016-11-27 17:23:01,265 - INFO - layer_fc1: Tensor("Relu_5:0", shape=(?, 128), dtype=float32)
+2016-11-27 17:23:01,265 - INFO - logits: Tensor("Add_7:0", shape=(?, 43), dtype=float32)
+2016-11-27 17:23:19,096 - DEBUG - Epoch:     1;  cost=1.877032876
+2016-11-27 17:23:19,111 - DEBUG - Accuracy(training batch): 39.06%
+2016-11-27 17:23:19,112 - INFO - Optimization Finished!
+2016-11-27 17:24:19,177 - DEBUG - Epoch:     1;  cost=1.974295735
+2016-11-27 17:24:19,193 - DEBUG - Accuracy(training batch): 34.38%
+2016-11-27 17:24:19,193 - INFO - Optimization Finished!
+2016-11-27 17:24:25,273 - INFO - ***Accuracy - Full Training:         36.96%
+2016-11-27 17:24:26,960 - INFO - ***Accuracy - Full Validation:       nan%
+2016-11-27 17:24:29,553 - INFO - ***Accuracy - Full Test:           nan%
+2016-11-27 17:24:29,554 - INFO - Time usage: 0:00:32
+2016-11-27 17:25:18,539 - DEBUG - Epoch:     1;  cost=1.916242957
+2016-11-27 17:25:18,564 - DEBUG - Accuracy(training batch): 35.94%
+2016-11-27 17:25:18,564 - INFO - Optimization Finished!
+2016-11-27 17:25:25,817 - INFO - ***Accuracy - Full Training:         39.91%
+2016-11-27 17:25:27,526 - INFO - ***Accuracy - Full Validation:       nan%
+2016-11-27 17:25:30,101 - INFO - ***Accuracy - Full Test:             nan%
+2016-11-27 17:25:36,305 - INFO - ***Accuracy - Full Training:         39.64%
+2016-11-27 17:25:37,864 - INFO - ***Accuracy - Full Validation:       39.36%
+2016-11-27 17:25:37,865 - INFO - Time usage: 0:00:43
+2016-11-27 17:29:09,666 - DEBUG - Epoch:     1;  cost=1.765347600
+2016-11-27 17:29:09,682 - DEBUG - Accuracy(training batch): 40.62%
+2016-11-27 17:29:09,683 - INFO - Optimization Finished!
+2016-11-27 17:29:16,061 - INFO - ***Accuracy - Full Training:         38.92%
+2016-11-27 17:29:17,665 - INFO - ***Accuracy - Full Validation:       39.52%
+2016-11-27 17:29:20,237 - INFO - ***Accuracy - Full Test:             35.20%
+2016-11-27 17:29:26,526 - INFO - ***Accuracy - Full Training:         38.63%
+2016-11-27 17:29:28,178 - INFO - ***Accuracy - Full Validation:       39.33%
+2016-11-27 17:29:28,179 - INFO - Time usage: 0:00:41
+2016-11-27 17:30:48,466 - DEBUG - Epoch:     1;  cost=1.779919386
+2016-11-27 17:30:48,496 - DEBUG - Accuracy(training batch): 39.06%
+2016-11-27 17:30:48,497 - INFO - Optimization Finished!
+2016-11-27 17:30:57,531 - INFO - ***Accuracy - Full Training:         39.89%
+2016-11-27 17:31:00,047 - INFO - ***Accuracy - Full Validation:       39.82%
+2016-11-27 17:31:04,502 - INFO - ***Accuracy - Full Test:             35.69%
+2016-11-27 17:34:09,586 - DEBUG - Epoch:     1;  cost=1.934798360
+2016-11-27 17:34:09,607 - DEBUG - Accuracy(training batch): 37.50%
+2016-11-27 17:34:09,608 - INFO - Optimization Finished!
+2016-11-27 17:34:19,165 - INFO - ***Accuracy - Full Training:         38.86%
+2016-11-27 17:34:21,688 - INFO - ***Accuracy - Full Validation:       39.15%
+2016-11-27 17:34:25,695 - INFO - ***Accuracy - Full Test:             34.81%
+2016-11-27 17:36:10,839 - DEBUG - Epoch:     1;  cost=1.855240107
+2016-11-27 17:36:10,866 - DEBUG - Accuracy(training batch): 35.94%
+2016-11-27 17:36:10,867 - INFO - Optimization Finished!
+2016-11-27 17:36:20,930 - INFO - ***Accuracy - Full Training:         39.04%
+2016-11-27 17:36:23,541 - INFO - ***Accuracy - Full Validation:       39.61%
+2016-11-27 17:36:27,797 - INFO - ***Accuracy - Full Test:             35.60%
+2016-11-27 17:36:37,301 - INFO - ...Accuracy - Full Training:         38.92%
+2016-11-27 17:36:39,688 - INFO - ...Accuracy - Full Validation:       39.38%
+2016-11-27 17:36:39,689 - INFO - Time usage: 0:01:00
+2016-11-27 17:38:26,705 - DEBUG - Epoch:     1;  cost=1.856692314
+2016-11-27 17:38:26,728 - DEBUG - Accuracy(training batch): 34.38%
+2016-11-27 17:38:26,728 - INFO - Optimization Finished!
+2016-11-27 17:38:36,745 - INFO - ***Accuracy - Full Training:         37.71%
+2016-11-27 17:38:39,265 - INFO - ***Accuracy - Full Validation:       37.49%
+2016-11-27 17:38:43,318 - INFO - ***Accuracy - Full Test:             33.67%
+2016-11-27 17:38:53,101 - INFO - ...Accuracy - Full Training:         37.71%
+2016-11-27 17:38:55,650 - INFO - ...Accuracy - Full Validation:       37.50%
+2016-11-27 17:38:55,651 - INFO - Time usage: 0:01:03
+2016-11-27 17:39:31,647 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-27 17:39:31,648 - INFO - Learning Rate: 0.001
+2016-11-27 17:39:31,648 - INFO - Batch Size: 64
+2016-11-27 17:39:31,648 - INFO - Kernal Size: 5 x 5
+2016-11-27 17:39:31,649 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-27 17:39:31,649 - INFO - layer_convn1: Tensor("Relu_6:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 17:39:31,650 - INFO - layer_convn2: Tensor("Relu_7:0", shape=(?, 8, 8, 32), dtype=float32)
+2016-11-27 17:39:31,650 - INFO - layer_fc1: Tensor("Relu_8:0", shape=(?, 128), dtype=float32)
+2016-11-27 17:39:31,651 - INFO - logits: Tensor("Add_11:0", shape=(?, 43), dtype=float32)
+2016-11-27 17:40:08,428 - DEBUG - Epoch:     1;  cost=1.735083342
+2016-11-27 17:40:08,471 - DEBUG - Accuracy(training batch): 42.19%
+2016-11-27 17:40:43,551 - DEBUG - Epoch:     2;  cost=1.008350730
+2016-11-27 17:40:43,579 - DEBUG - Accuracy(training batch): 67.19%
+2016-11-27 17:41:15,660 - DEBUG - Epoch:     3;  cost=0.337848365
+2016-11-27 17:41:15,696 - DEBUG - Accuracy(training batch): 87.50%
+2016-11-27 17:41:47,801 - DEBUG - Epoch:     4;  cost=0.248190641
+2016-11-27 17:41:47,827 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-27 17:42:20,414 - DEBUG - Epoch:     5;  cost=0.160642743
+2016-11-27 17:42:20,440 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-27 17:42:55,357 - DEBUG - Epoch:     6;  cost=0.051092595
+2016-11-27 17:42:55,375 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-27 17:43:30,101 - DEBUG - Epoch:     7;  cost=0.018098900
+2016-11-27 17:43:30,129 - DEBUG - Accuracy(training batch): 100.00%
+2016-11-27 17:44:04,284 - DEBUG - Epoch:     8;  cost=0.021971969
+2016-11-27 17:44:04,307 - DEBUG - Accuracy(training batch): 100.00%
+2016-11-27 17:44:36,327 - DEBUG - Epoch:     9;  cost=0.026913606
+2016-11-27 17:44:36,349 - DEBUG - Accuracy(training batch): 100.00%
+2016-11-27 17:45:11,879 - DEBUG - Epoch:    10;  cost=0.004821899
+2016-11-27 17:45:11,922 - DEBUG - Accuracy(training batch): 100.00%
+2016-11-27 17:45:11,923 - INFO - Optimization Finished!
+2016-11-27 17:45:24,699 - INFO - ***Accuracy - Full Training:         99.07%
+2016-11-27 17:45:27,623 - INFO - ***Accuracy - Full Validation:       97.69%
+2016-11-27 17:45:32,863 - INFO - ***Accuracy - Full Test:             85.24%
+2016-11-27 17:45:32,865 - INFO - Time usage: 0:06:01
+2016-11-27 18:00:51,127 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-27 18:00:51,279 - INFO - Learning Rate: 0.001
+2016-11-27 18:00:51,283 - INFO - Batch Size: 64
+2016-11-27 18:00:51,284 - INFO - Kernal Size: 5 x 5
+2016-11-27 18:00:51,285 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-27 18:00:51,286 - INFO - layer_convn1: Tensor("Relu_9:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 18:00:51,286 - INFO - layer_convn2: Tensor("Relu_10:0", shape=(?, 8, 8, 32), dtype=float32)
+2016-11-27 18:00:51,287 - INFO - layer_fc1: Tensor("Relu_11:0", shape=(?, 128), dtype=float32)
+2016-11-27 18:00:51,288 - INFO - logits: Tensor("Add_15:0", shape=(?, 43), dtype=float32)
+2016-11-27 18:01:23,169 - DEBUG - Epoch:     1;  cost=1.898839831
+2016-11-27 18:01:23,196 - DEBUG - Accuracy(training batch): 35.94%
+2016-11-27 18:01:56,989 - DEBUG - Epoch:     2;  cost=1.315003276
+2016-11-27 18:01:57,014 - DEBUG - Accuracy(training batch): 56.25%
+2016-11-27 18:02:32,034 - DEBUG - Epoch:     3;  cost=0.604647279
+2016-11-27 18:02:32,058 - DEBUG - Accuracy(training batch): 79.69%
+2016-11-27 18:03:01,674 - DEBUG - Epoch:     4;  cost=0.262982041
+2016-11-27 18:03:01,696 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-27 18:03:32,814 - DEBUG - Epoch:     5;  cost=0.190425247
+2016-11-27 18:03:32,834 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-27 18:04:10,640 - DEBUG - Epoch:     6;  cost=0.075281128
+2016-11-27 18:04:10,669 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-27 18:04:45,992 - DEBUG - Epoch:     7;  cost=0.010818844
+2016-11-27 18:04:46,016 - DEBUG - Accuracy(training batch): 100.00%
+2016-11-27 18:05:19,636 - DEBUG - Epoch:     8;  cost=0.050357997
+2016-11-27 18:05:19,667 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-27 18:05:51,449 - DEBUG - Epoch:     9;  cost=0.035040982
+2016-11-27 18:05:51,480 - DEBUG - Accuracy(training batch): 98.44%
+2016-11-27 18:06:23,040 - DEBUG - Epoch:    10;  cost=0.049551785
+2016-11-27 18:06:23,063 - DEBUG - Accuracy(training batch): 98.44%
+2016-11-27 18:06:23,076 - INFO - Optimization Finished!
+2016-11-27 18:06:32,523 - INFO - ***Accuracy - Full Training:         97.91%
+2016-11-27 18:06:34,946 - INFO - ***Accuracy - Full Validation:       96.67%
+2016-11-27 18:06:39,417 - INFO - ***Accuracy - Full Test:             84.49%
+2016-11-27 18:06:39,419 - INFO - Time usage: 0:05:48
+2016-11-27 18:12:38,266 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-27 18:12:38,361 - INFO - Learning Rate: 0.001
+2016-11-27 18:12:38,363 - INFO - Batch Size: 64
+2016-11-27 18:12:38,364 - INFO - Kernal Size: 5 x 5
+2016-11-27 18:12:38,364 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-27 18:12:38,365 - INFO - layer_convn1: Tensor("Relu:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 18:12:38,366 - INFO - layer_convn2: Tensor("Relu_1:0", shape=(?, 8, 8, 32), dtype=float32)
+2016-11-27 18:12:38,366 - INFO - layer_fc1: Tensor("Relu_2:0", shape=(?, 128), dtype=float32)
+2016-11-27 18:12:38,366 - INFO - logits: Tensor("Add_3:0", shape=(?, 43), dtype=float32)
+2016-11-27 18:27:13,783 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-27 18:27:13,783 - INFO - Learning Rate: 0.001
+2016-11-27 18:27:13,784 - INFO - Batch Size: 64
+2016-11-27 18:27:13,786 - INFO - Kernal Size: 5 x 5
+2016-11-27 18:27:13,786 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-27 18:27:13,787 - INFO - layer_convn1: Tensor("Relu:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 18:27:13,787 - INFO - layer_convn2: Tensor("Relu_1:0", shape=(?, 8, 8, 32), dtype=float32)
+2016-11-27 18:27:13,788 - INFO - layer_fc1: Tensor("Relu_2:0", shape=(?, 128), dtype=float32)
+2016-11-27 18:27:13,789 - INFO - logits: Tensor("Add_3:0", shape=(?, 43), dtype=float32)
+2016-11-27 18:35:58,418 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-27 18:35:58,418 - INFO - Learning Rate: 0.001
+2016-11-27 18:35:58,418 - INFO - Batch Size: 64
+2016-11-27 18:35:58,419 - INFO - Kernal Size: 5 x 5
+2016-11-27 18:35:58,419 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-27 18:35:58,420 - INFO - layer_convn1: Tensor("Relu_3:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 18:35:58,422 - INFO - layer_convn2: Tensor("Relu_4:0", shape=(?, 8, 8, 32), dtype=float32)
+2016-11-27 18:35:58,422 - INFO - layer_fc1: Tensor("Relu_5:0", shape=(?, 128), dtype=float32)
+2016-11-27 18:35:58,423 - INFO - logits: Tensor("Add_7:0", shape=(?, 43), dtype=float32)
+2016-11-27 18:36:52,399 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-27 18:36:52,399 - INFO - Learning Rate: 0.001
+2016-11-27 18:36:52,400 - INFO - Batch Size: 64
+2016-11-27 18:36:52,402 - INFO - Kernal Size: 5 x 5
+2016-11-27 18:36:52,406 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-27 18:36:52,407 - INFO - layer_convn1: Tensor("Relu_6:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 18:36:52,407 - INFO - layer_convn2: Tensor("Relu_7:0", shape=(?, 8, 8, 32), dtype=float32)
+2016-11-27 18:36:52,408 - INFO - layer_fc1: Tensor("Relu_8:0", shape=(?, 128), dtype=float32)
+2016-11-27 18:36:52,409 - INFO - logits: Tensor("Add_11:0", shape=(?, 43), dtype=float32)
+2016-11-27 18:44:18,379 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-27 18:44:18,380 - INFO - Learning Rate: 0.001
+2016-11-27 18:44:18,381 - INFO - Batch Size: 64
+2016-11-27 18:44:18,381 - INFO - Kernal Size: 5 x 5
+2016-11-27 18:44:18,382 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-27 18:44:18,431 - INFO - layer_convn1: Tensor("Relu_9:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 18:44:18,432 - INFO - layer_convn2: Tensor("Relu_10:0", shape=(?, 8, 8, 32), dtype=float32)
+2016-11-27 18:44:18,432 - INFO - layer_fc1: Tensor("Relu_11:0", shape=(?, 128), dtype=float32)
+2016-11-27 18:44:18,432 - INFO - logits: Tensor("Add_15:0", shape=(?, 43), dtype=float32)
+2016-11-27 18:44:43,220 - DEBUG - Epoch:     1;  cost=1.808075428
+2016-11-27 18:44:43,245 - DEBUG - Accuracy(training batch): 35.94%
+2016-11-27 18:45:02,718 - DEBUG - Epoch:     2;  cost=1.030215859
+2016-11-27 18:45:02,731 - DEBUG - Accuracy(training batch): 65.62%
+2016-11-27 18:45:21,883 - DEBUG - Epoch:     3;  cost=0.524387717
+2016-11-27 18:45:21,896 - DEBUG - Accuracy(training batch): 82.81%
+2016-11-27 18:45:44,596 - DEBUG - Epoch:     4;  cost=0.373030603
+2016-11-27 18:45:44,648 - DEBUG - Accuracy(training batch): 87.50%
+2016-11-27 18:46:13,196 - DEBUG - Epoch:     5;  cost=0.237402245
+2016-11-27 18:46:13,215 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-27 18:46:35,168 - DEBUG - Epoch:     6;  cost=0.131269798
+2016-11-27 18:46:35,181 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-27 18:46:59,575 - DEBUG - Epoch:     7;  cost=0.033310264
+2016-11-27 18:46:59,609 - DEBUG - Accuracy(training batch): 100.00%
+2016-11-27 18:47:23,084 - DEBUG - Epoch:     8;  cost=0.029541850
+2016-11-27 18:47:23,098 - DEBUG - Accuracy(training batch): 100.00%
+2016-11-27 18:47:45,911 - DEBUG - Epoch:     9;  cost=0.014589068
+2016-11-27 18:47:45,931 - DEBUG - Accuracy(training batch): 100.00%
+2016-11-27 18:48:09,875 - DEBUG - Epoch:    10;  cost=0.036651030
+2016-11-27 18:48:09,888 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-27 18:48:09,888 - INFO - Optimization Finished!
+2016-11-27 18:48:17,376 - INFO - ***Accuracy - Full Training:         98.88%
+2016-11-27 18:48:19,354 - INFO - ***Accuracy - Full Validation:       97.16%
+2016-11-27 18:48:22,119 - INFO - ***Accuracy - Full Test:             85.08%
+2016-11-27 18:48:22,120 - INFO - Time usage: 0:04:03
+2016-11-27 20:50:50,321 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-27 20:50:50,483 - INFO - Learning Rate: 0.001
+2016-11-27 20:50:50,483 - INFO - Batch Size: 64
+2016-11-27 20:50:50,484 - INFO - Kernal Size: 5 x 5
+2016-11-27 20:50:50,485 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-27 20:50:50,486 - INFO - layer_convn1: Tensor("Relu_12:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 20:50:50,486 - INFO - layer_convn2: Tensor("Relu_13:0", shape=(?, 8, 8, 32), dtype=float32)
+2016-11-27 20:50:50,487 - INFO - layer_fc1: Tensor("Relu_14:0", shape=(?, 128), dtype=float32)
+2016-11-27 20:50:50,488 - INFO - logits: Tensor("Add_19:0", shape=(?, 43), dtype=float32)
+2016-11-27 20:51:48,393 - DEBUG - Epoch:     1;  cost=1.303295135
+2016-11-27 20:51:48,424 - DEBUG - Accuracy(training batch): 51.56%
+2016-11-27 20:52:45,010 - DEBUG - Epoch:     2;  cost=0.473269999
+2016-11-27 20:52:45,023 - DEBUG - Accuracy(training batch): 81.25%
+2016-11-27 20:53:41,935 - DEBUG - Epoch:     3;  cost=0.426274836
+2016-11-27 20:53:41,947 - DEBUG - Accuracy(training batch): 84.38%
+2016-11-27 20:54:39,132 - DEBUG - Epoch:     4;  cost=0.457318425
+2016-11-27 20:54:39,144 - DEBUG - Accuracy(training batch): 84.38%
+2016-11-27 20:55:36,877 - DEBUG - Epoch:     5;  cost=0.630749702
+2016-11-27 20:55:36,890 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-27 20:56:34,941 - DEBUG - Epoch:     6;  cost=0.308379292
+2016-11-27 20:56:34,954 - DEBUG - Accuracy(training batch): 89.06%
+2016-11-27 20:57:36,985 - DEBUG - Epoch:     7;  cost=0.144185603
+2016-11-27 20:57:36,998 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-27 20:58:34,629 - DEBUG - Epoch:     8;  cost=0.111294568
+2016-11-27 20:58:34,644 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-27 20:59:32,348 - DEBUG - Epoch:     9;  cost=0.087119989
+2016-11-27 20:59:32,360 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-27 21:00:30,154 - DEBUG - Epoch:    10;  cost=0.056862485
+2016-11-27 21:00:30,168 - DEBUG - Accuracy(training batch): 98.44%
+2016-11-27 21:00:30,168 - INFO - Optimization Finished!
+2016-11-27 21:00:48,727 - INFO - ***Accuracy - Full Training:         96.57%
+2016-11-27 21:00:53,399 - INFO - ***Accuracy - Full Validation:       94.60%
+2016-11-27 21:00:55,931 - INFO - ***Accuracy - Full Test:             78.74%
+2016-11-27 21:00:55,932 - INFO - Time usage: 0:10:05
+2016-11-27 21:08:31,021 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-27 21:08:31,021 - INFO - Learning Rate: 0.001
+2016-11-27 21:08:31,022 - INFO - Batch Size: 64
+2016-11-27 21:08:31,023 - INFO - Kernal Size: 5 x 5
+2016-11-27 21:08:31,023 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-27 21:08:31,023 - INFO - layer_convn1: Tensor("Relu_18:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 21:08:31,023 - INFO - layer_convn2: Tensor("Relu_19:0", shape=(?, 8, 8, 32), dtype=float32)
+2016-11-27 21:08:31,024 - INFO - layer_fc1: Tensor("dropout_1/mul:0", shape=(?, 128), dtype=float32)
+2016-11-27 21:08:31,024 - INFO - logits: Tensor("Add_26:0", shape=(?, 43), dtype=float32)
+2016-11-27 21:23:42,748 - DEBUG - Epoch:     1;  cost=1.315199971
+2016-11-27 21:23:42,771 - DEBUG - Accuracy(training batch): 50.00%
+2016-11-27 21:24:39,810 - DEBUG - Epoch:     2;  cost=0.565307379
+2016-11-27 21:24:39,822 - DEBUG - Accuracy(training batch): 84.38%
+2016-11-27 21:25:37,026 - DEBUG - Epoch:     3;  cost=0.514857411
+2016-11-27 21:25:37,039 - DEBUG - Accuracy(training batch): 85.94%
+2016-11-27 21:26:35,323 - DEBUG - Epoch:     4;  cost=0.381398231
+2016-11-27 21:26:35,336 - DEBUG - Accuracy(training batch): 85.94%
+2016-11-27 21:27:32,617 - DEBUG - Epoch:     5;  cost=0.239086270
+2016-11-27 21:27:32,631 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-27 21:28:33,315 - DEBUG - Epoch:     6;  cost=0.363277733
+2016-11-27 21:28:33,328 - DEBUG - Accuracy(training batch): 89.06%
+2016-11-27 21:29:31,392 - DEBUG - Epoch:     7;  cost=0.272531390
+2016-11-27 21:29:31,405 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-27 21:30:28,964 - DEBUG - Epoch:     8;  cost=0.313243389
+2016-11-27 21:30:28,977 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-27 21:31:26,566 - DEBUG - Epoch:     9;  cost=0.250580788
+2016-11-27 21:31:26,579 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-27 21:32:24,292 - DEBUG - Epoch:    10;  cost=0.071417198
+2016-11-27 21:32:24,305 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-27 21:32:24,306 - INFO - Optimization Finished!
+2016-11-27 21:32:43,093 - INFO - ***Accuracy - Full Training:         93.70%
+2016-11-27 21:32:47,824 - INFO - ***Accuracy - Full Validation:       91.93%
+2016-11-27 21:32:50,375 - INFO - ***Accuracy - Full Test:             78.83%
+2016-11-27 21:32:50,375 - INFO - Time usage: 0:10:11
+2016-11-27 21:58:19,703 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-27 21:58:19,703 - INFO - Learning Rate: 0.001
+2016-11-27 21:58:19,704 - INFO - Batch Size: 64
+2016-11-27 21:58:19,704 - INFO - Kernal Size: 5 x 5
+2016-11-27 21:58:19,705 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-27 21:58:19,705 - INFO - layer_convn1: Tensor("Relu_24:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 21:58:19,706 - INFO - layer_convn2: Tensor("Relu_25:0", shape=(?, 8, 8, 32), dtype=float32)
+2016-11-27 21:58:19,706 - INFO - layer_fc1: Tensor("dropout_3/mul:0", shape=(?, 128), dtype=float32)
+2016-11-27 21:58:19,706 - INFO - logits: Tensor("Add_34:0", shape=(?, 43), dtype=float32)
+2016-11-27 21:59:18,198 - DEBUG - Epoch:     1;  cost=1.434641361
+2016-11-27 21:59:18,222 - DEBUG - Accuracy(training batch): 57.81%
+2016-11-27 22:00:16,378 - DEBUG - Epoch:     2;  cost=0.770719647
+2016-11-27 22:00:16,391 - DEBUG - Accuracy(training batch): 76.56%
+2016-11-27 22:01:14,460 - DEBUG - Epoch:     3;  cost=0.499506772
+2016-11-27 22:01:14,475 - DEBUG - Accuracy(training batch): 78.12%
+2016-11-27 22:02:12,746 - DEBUG - Epoch:     4;  cost=0.704920053
+2016-11-27 22:02:12,760 - DEBUG - Accuracy(training batch): 81.25%
+2016-11-27 22:03:11,089 - DEBUG - Epoch:     5;  cost=0.523412108
+2016-11-27 22:03:11,109 - DEBUG - Accuracy(training batch): 81.25%
+2016-11-27 22:04:13,323 - DEBUG - Epoch:     6;  cost=0.339851707
+2016-11-27 22:04:13,336 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-27 22:05:11,006 - DEBUG - Epoch:     7;  cost=0.308506966
+2016-11-27 22:05:11,019 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-27 22:06:08,506 - DEBUG - Epoch:     8;  cost=0.299264014
+2016-11-27 22:06:08,519 - DEBUG - Accuracy(training batch): 87.50%
+2016-11-27 22:07:05,915 - DEBUG - Epoch:     9;  cost=0.368265688
+2016-11-27 22:07:05,929 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-27 22:08:03,545 - DEBUG - Epoch:    10;  cost=0.330686569
+2016-11-27 22:08:03,558 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-27 22:09:01,263 - DEBUG - Epoch:    11;  cost=0.291400015
+2016-11-27 22:09:01,275 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-27 22:09:59,062 - DEBUG - Epoch:    12;  cost=0.393612057
+2016-11-27 22:09:59,074 - DEBUG - Accuracy(training batch): 85.94%
+2016-11-27 22:10:56,875 - DEBUG - Epoch:    13;  cost=0.085050561
+2016-11-27 22:10:56,889 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-27 22:11:54,648 - DEBUG - Epoch:    14;  cost=0.422089577
+2016-11-27 22:11:54,661 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-27 22:12:52,382 - DEBUG - Epoch:    15;  cost=0.165357038
+2016-11-27 22:12:52,395 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-27 22:13:50,284 - DEBUG - Epoch:    16;  cost=0.284150451
+2016-11-27 22:13:50,297 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-27 22:14:48,135 - DEBUG - Epoch:    17;  cost=0.218854457
+2016-11-27 22:14:48,148 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-27 22:15:46,119 - DEBUG - Epoch:    18;  cost=0.112479538
+2016-11-27 22:15:46,131 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-27 22:16:44,025 - DEBUG - Epoch:    19;  cost=0.192549691
+2016-11-27 22:16:44,039 - DEBUG - Accuracy(training batch): 87.50%
+2016-11-27 22:17:43,516 - DEBUG - Epoch:    20;  cost=0.164714739
+2016-11-27 22:17:43,529 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-27 22:17:43,529 - INFO - Optimization Finished!
+2016-11-27 22:18:02,500 - INFO - ***Accuracy - Full Training:         93.48%
+2016-11-27 22:18:07,251 - INFO - ***Accuracy - Full Validation:       91.43%
+2016-11-27 22:18:09,833 - INFO - ***Accuracy - Full Test:             75.88%
+2016-11-27 22:18:09,834 - INFO - Time usage: 0:19:50
+2016-11-27 22:21:18,278 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-27 22:21:18,279 - INFO - Learning Rate: 0.001
+2016-11-27 22:21:18,279 - INFO - Batch Size: 64
+2016-11-27 22:21:18,279 - INFO - Kernal Size: 5 x 5
+2016-11-27 22:21:18,280 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-27 22:21:36,017 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-27 22:21:36,017 - INFO - Learning Rate: 0.001
+2016-11-27 22:21:36,017 - INFO - Batch Size: 64
+2016-11-27 22:21:36,017 - INFO - Kernal Size: 5 x 5
+2016-11-27 22:21:36,018 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-27 22:21:36,018 - INFO - Dropout keep_prob: 0.8
+2016-11-27 22:21:36,018 - INFO - layer_convn1: Tensor("Relu_24:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-27 22:21:36,019 - INFO - layer_convn2: Tensor("Relu_25:0", shape=(?, 8, 8, 32), dtype=float32)
+2016-11-27 22:21:36,019 - INFO - layer_fc1: Tensor("dropout_3/mul:0", shape=(?, 128), dtype=float32)
+2016-11-27 22:21:36,019 - INFO - logits: Tensor("Add_34:0", shape=(?, 43), dtype=float32)
