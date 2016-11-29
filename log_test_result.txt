@@ -1809,3 +1809,33 @@ Training Begins - AdamOptimizer
 2016-11-28 21:38:29,383 - INFO - layer_convn2: Tensor("Relu_1:0", shape=(?, 8, 8, 32), dtype=float32)
 2016-11-28 21:38:29,383 - INFO - layer_fc1: Tensor("dropout/mul:0", shape=(?, 128), dtype=float32)
 2016-11-28 21:38:29,383 - INFO - logits: Tensor("Add_3:0", shape=(?, 43), dtype=float32)
+2016-11-28 21:44:52,779 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-28 21:44:52,939 - INFO - Learning Rate: 0.001
+2016-11-28 21:44:52,939 - INFO - Batch Size: 64
+2016-11-28 21:44:52,939 - INFO - Kernal Size: 5 x 5
+2016-11-28 21:44:52,940 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-28 21:44:52,940 - INFO - Dropout keep_prob: 0.8
+2016-11-28 21:44:52,940 - INFO - layer_convn1: Tensor("Relu_3:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-28 21:44:52,940 - INFO - layer_convn2: Tensor("Relu_4:0", shape=(?, 8, 8, 32), dtype=float32)
+2016-11-28 21:44:52,940 - INFO - layer_fc1: Tensor("dropout_1/mul:0", shape=(?, 128), dtype=float32)
+2016-11-28 21:44:52,941 - INFO - logits: Tensor("Add_7:0", shape=(?, 43), dtype=float32)
+2016-11-28 21:46:16,684 - DEBUG - Epoch:     1;  cost=1.523004055
+2016-11-28 21:46:16,724 - DEBUG - Accuracy(training batch): 43.75%
+2016-11-28 21:46:37,327 - INFO - ***Accuracy - Full Training:         48.42%
+2016-11-28 21:46:43,189 - INFO - ***Accuracy - Full Validation:       48.47%
+2016-11-28 21:46:45,707 - INFO - ***Accuracy - Full Test:             37.64%
+2016-11-28 21:47:48,391 - DEBUG - Epoch:     2;  cost=1.076288700
+2016-11-28 21:47:48,403 - DEBUG - Accuracy(training batch): 70.31%
+2016-11-28 21:48:48,766 - DEBUG - Epoch:     3;  cost=0.603858709
+2016-11-28 21:48:48,779 - DEBUG - Accuracy(training batch): 73.44%
+2016-11-28 21:49:55,278 - DEBUG - Epoch:     4;  cost=0.717818379
+2016-11-28 21:49:55,291 - DEBUG - Accuracy(training batch): 85.94%
+2016-11-28 21:51:01,343 - DEBUG - Epoch:     5;  cost=0.499370277
+2016-11-28 21:51:01,373 - DEBUG - Accuracy(training batch): 79.69%
+2016-11-28 21:51:01,374 - INFO - Optimization Finished!
+2016-11-28 21:51:25,063 - INFO - ***Accuracy - Full Training:         82.44%
+2016-11-28 21:51:30,049 - INFO - ***Accuracy - Full Validation:       81.12%
+2016-11-28 21:51:32,943 - INFO - ***Accuracy - Full Test:             68.72%
+2016-11-28 21:51:32,944 - INFO - Time usage: 0:06:17
