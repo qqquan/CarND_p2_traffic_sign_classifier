@@ -4332,3 +4332,480 @@ Training Begins - AdamOptimizer
 2016-11-29 23:33:32,916 - INFO - ***Accuracy - Full Validation:       84.07%
 2016-11-29 23:33:35,426 - INFO - ***Accuracy - Full Test:             73.91%
 2016-11-29 23:33:35,427 - INFO - Time usage: 0:11:05
+2016-11-30 00:25:14,963 - INFO - ========================================
+                                     Training Begins - AdamOptimizer  
+=========================================================================
+2016-11-30 00:25:14,963 - INFO - Learning Rate: 0.001
+2016-11-30 00:25:14,964 - INFO - Batch Size: 64
+2016-11-30 00:25:14,965 - INFO - Kernal Size: 5 x 5
+2016-11-30 00:25:14,965 - INFO - Stride Parameters Size: [1, 2, 2, 1]
+2016-11-30 00:25:14,966 - INFO - Dropout keep_prob: 0.8
+2016-11-30 00:25:14,968 - INFO - layer_convn1: Tensor("Relu:0", shape=(?, 16, 16, 16), dtype=float32)
+2016-11-30 00:25:14,969 - INFO - layer_convn2: Tensor("Relu_1:0", shape=(?, 8, 8, 32), dtype=float32)
+2016-11-30 00:25:14,970 - INFO - layer_fc1: Tensor("dropout/mul:0", shape=(?, 128), dtype=float32)
+2016-11-30 00:25:14,973 - INFO - logits: Tensor("Add_3:0", shape=(?, 43), dtype=float32)
+2016-11-30 00:26:18,067 - DEBUG - Epoch:     1;  cost=1.328270435
+2016-11-30 00:26:18,083 - DEBUG - Accuracy(training batch): 62.50%
+2016-11-30 00:26:36,463 - INFO - ***Accuracy - Full Training:         57.77%
+2016-11-30 00:26:41,105 - INFO - ***Accuracy - Full Validation:       57.53%
+2016-11-30 00:26:43,631 - INFO - ***Accuracy - Full Test:             47.46%
+2016-11-30 00:27:39,601 - DEBUG - Epoch:     2;  cost=0.864363790
+2016-11-30 00:27:39,614 - DEBUG - Accuracy(training batch): 71.88%
+2016-11-30 00:28:35,597 - DEBUG - Epoch:     3;  cost=0.938761473
+2016-11-30 00:28:35,610 - DEBUG - Accuracy(training batch): 78.12%
+2016-11-30 00:29:32,016 - DEBUG - Epoch:     4;  cost=0.485021800
+2016-11-30 00:29:32,029 - DEBUG - Accuracy(training batch): 81.25%
+2016-11-30 00:30:28,443 - DEBUG - Epoch:     5;  cost=0.317443192
+2016-11-30 00:30:28,455 - DEBUG - Accuracy(training batch): 89.06%
+2016-11-30 00:31:27,028 - DEBUG - Epoch:     6;  cost=0.418754339
+2016-11-30 00:31:27,045 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 00:32:27,197 - DEBUG - Epoch:     7;  cost=0.583668709
+2016-11-30 00:32:27,210 - DEBUG - Accuracy(training batch): 81.25%
+2016-11-30 00:33:24,058 - DEBUG - Epoch:     8;  cost=0.440998912
+2016-11-30 00:33:24,071 - DEBUG - Accuracy(training batch): 81.25%
+2016-11-30 00:34:20,764 - DEBUG - Epoch:     9;  cost=0.478671551
+2016-11-30 00:34:20,777 - DEBUG - Accuracy(training batch): 84.38%
+2016-11-30 00:35:17,653 - DEBUG - Epoch:    10;  cost=0.174558520
+2016-11-30 00:35:17,666 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 00:36:14,657 - DEBUG - Epoch:    11;  cost=0.517449021
+2016-11-30 00:36:14,669 - DEBUG - Accuracy(training batch): 81.25%
+2016-11-30 00:36:33,333 - INFO - ***Accuracy - Full Training:         87.15%
+2016-11-30 00:36:38,041 - INFO - ***Accuracy - Full Validation:       85.99%
+2016-11-30 00:36:40,602 - INFO - ***Accuracy - Full Test:             77.22%
+2016-11-30 00:37:38,427 - DEBUG - Epoch:    12;  cost=0.350461364
+2016-11-30 00:37:38,440 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 00:38:36,249 - DEBUG - Epoch:    13;  cost=0.544483960
+2016-11-30 00:38:36,262 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 00:39:34,297 - DEBUG - Epoch:    14;  cost=0.344437748
+2016-11-30 00:39:34,310 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 00:40:32,319 - DEBUG - Epoch:    15;  cost=0.426830590
+2016-11-30 00:40:32,332 - DEBUG - Accuracy(training batch): 89.06%
+2016-11-30 00:41:36,167 - DEBUG - Epoch:    16;  cost=0.238755286
+2016-11-30 00:41:36,180 - DEBUG - Accuracy(training batch): 87.50%
+2016-11-30 00:42:33,165 - DEBUG - Epoch:    17;  cost=0.285015762
+2016-11-30 00:42:33,178 - DEBUG - Accuracy(training batch): 85.94%
+2016-11-30 00:43:30,461 - DEBUG - Epoch:    18;  cost=0.490401864
+2016-11-30 00:43:30,473 - DEBUG - Accuracy(training batch): 81.25%
+2016-11-30 00:44:27,571 - DEBUG - Epoch:    19;  cost=0.202517271
+2016-11-30 00:44:27,583 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 00:45:24,875 - DEBUG - Epoch:    20;  cost=0.513508558
+2016-11-30 00:45:24,888 - DEBUG - Accuracy(training batch): 87.50%
+2016-11-30 00:46:22,093 - DEBUG - Epoch:    21;  cost=0.279192209
+2016-11-30 00:46:22,115 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 00:46:40,429 - INFO - ***Accuracy - Full Training:         92.87%
+2016-11-30 00:46:45,045 - INFO - ***Accuracy - Full Validation:       91.36%
+2016-11-30 00:46:47,563 - INFO - ***Accuracy - Full Test:             77.74%
+2016-11-30 00:47:44,829 - DEBUG - Epoch:    22;  cost=0.246960670
+2016-11-30 00:47:44,842 - DEBUG - Accuracy(training batch): 89.06%
+2016-11-30 00:48:41,975 - DEBUG - Epoch:    23;  cost=0.222383708
+2016-11-30 00:48:41,988 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 00:49:39,646 - DEBUG - Epoch:    24;  cost=0.169932276
+2016-11-30 00:49:39,658 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 00:50:36,949 - DEBUG - Epoch:    25;  cost=0.494313717
+2016-11-30 00:50:36,962 - DEBUG - Accuracy(training batch): 82.81%
+2016-11-30 00:51:34,407 - DEBUG - Epoch:    26;  cost=0.160044208
+2016-11-30 00:51:34,420 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 00:52:31,882 - DEBUG - Epoch:    27;  cost=0.415179133
+2016-11-30 00:52:31,895 - DEBUG - Accuracy(training batch): 89.06%
+2016-11-30 00:53:29,576 - DEBUG - Epoch:    28;  cost=0.308222890
+2016-11-30 00:53:29,589 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 00:54:27,436 - DEBUG - Epoch:    29;  cost=0.149580821
+2016-11-30 00:54:27,449 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-30 00:55:25,675 - DEBUG - Epoch:    30;  cost=0.078630485
+2016-11-30 00:55:25,691 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-30 00:56:24,213 - DEBUG - Epoch:    31;  cost=0.179563239
+2016-11-30 00:56:24,226 - DEBUG - Accuracy(training batch): 85.94%
+2016-11-30 00:56:42,528 - INFO - ***Accuracy - Full Training:         94.25%
+2016-11-30 00:56:47,157 - INFO - ***Accuracy - Full Validation:       92.77%
+2016-11-30 00:56:49,729 - INFO - ***Accuracy - Full Test:             80.77%
+2016-11-30 00:57:48,577 - DEBUG - Epoch:    32;  cost=0.248523206
+2016-11-30 00:57:48,590 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 00:58:47,615 - DEBUG - Epoch:    33;  cost=0.155840963
+2016-11-30 00:58:47,628 - DEBUG - Accuracy(training batch): 87.50%
+2016-11-30 00:59:47,110 - DEBUG - Epoch:    34;  cost=0.157819822
+2016-11-30 00:59:47,123 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 01:00:46,604 - DEBUG - Epoch:    35;  cost=0.494215429
+2016-11-30 01:00:46,616 - DEBUG - Accuracy(training batch): 85.94%
+2016-11-30 01:01:46,209 - DEBUG - Epoch:    36;  cost=0.270015419
+2016-11-30 01:01:46,222 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 01:02:46,025 - DEBUG - Epoch:    37;  cost=0.187552765
+2016-11-30 01:02:46,038 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 01:03:45,777 - DEBUG - Epoch:    38;  cost=0.778438926
+2016-11-30 01:03:45,790 - DEBUG - Accuracy(training batch): 78.12%
+2016-11-30 01:04:45,610 - DEBUG - Epoch:    39;  cost=0.654888034
+2016-11-30 01:04:45,624 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 01:05:45,561 - DEBUG - Epoch:    40;  cost=0.228919223
+2016-11-30 01:05:45,573 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 01:06:45,466 - DEBUG - Epoch:    41;  cost=0.291375995
+2016-11-30 01:06:45,479 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 01:07:03,876 - INFO - ***Accuracy - Full Training:         91.39%
+2016-11-30 01:07:08,489 - INFO - ***Accuracy - Full Validation:       90.02%
+2016-11-30 01:07:11,002 - INFO - ***Accuracy - Full Test:             79.22%
+2016-11-30 01:08:10,881 - DEBUG - Epoch:    42;  cost=0.546274722
+2016-11-30 01:08:10,894 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 01:09:10,840 - DEBUG - Epoch:    43;  cost=0.276715279
+2016-11-30 01:09:10,853 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 01:10:10,701 - DEBUG - Epoch:    44;  cost=0.220019579
+2016-11-30 01:10:10,714 - DEBUG - Accuracy(training batch): 82.81%
+2016-11-30 01:11:10,766 - DEBUG - Epoch:    45;  cost=0.150049135
+2016-11-30 01:11:10,779 - DEBUG - Accuracy(training batch): 89.06%
+2016-11-30 01:12:10,701 - DEBUG - Epoch:    46;  cost=0.099547401
+2016-11-30 01:12:10,714 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 01:13:10,853 - DEBUG - Epoch:    47;  cost=0.043017745
+2016-11-30 01:13:10,866 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-30 01:14:11,004 - DEBUG - Epoch:    48;  cost=0.199557558
+2016-11-30 01:14:11,018 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 01:15:11,164 - DEBUG - Epoch:    49;  cost=0.271856070
+2016-11-30 01:15:11,177 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 01:16:11,264 - DEBUG - Epoch:    50;  cost=0.422079116
+2016-11-30 01:16:11,277 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 01:17:11,401 - DEBUG - Epoch:    51;  cost=0.383252144
+2016-11-30 01:17:11,414 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-30 01:17:29,715 - INFO - ***Accuracy - Full Training:         93.69%
+2016-11-30 01:17:34,338 - INFO - ***Accuracy - Full Validation:       91.79%
+2016-11-30 01:17:36,846 - INFO - ***Accuracy - Full Test:             82.39%
+2016-11-30 01:18:37,383 - DEBUG - Epoch:    52;  cost=0.072431326
+2016-11-30 01:18:37,396 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 01:19:37,666 - DEBUG - Epoch:    53;  cost=0.383433551
+2016-11-30 01:19:37,678 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 01:20:37,700 - DEBUG - Epoch:    54;  cost=0.076837733
+2016-11-30 01:20:37,713 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 01:21:37,957 - DEBUG - Epoch:    55;  cost=0.508516908
+2016-11-30 01:21:37,969 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 01:22:39,026 - DEBUG - Epoch:    56;  cost=0.833073378
+2016-11-30 01:22:39,039 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 01:23:39,474 - DEBUG - Epoch:    57;  cost=0.020712152
+2016-11-30 01:23:39,486 - DEBUG - Accuracy(training batch): 100.00%
+2016-11-30 01:24:39,981 - DEBUG - Epoch:    58;  cost=0.290779352
+2016-11-30 01:24:39,994 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 01:25:41,191 - DEBUG - Epoch:    59;  cost=0.288259208
+2016-11-30 01:25:41,204 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-30 01:26:42,466 - DEBUG - Epoch:    60;  cost=0.217531711
+2016-11-30 01:26:42,478 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 01:27:43,875 - DEBUG - Epoch:    61;  cost=0.657894492
+2016-11-30 01:27:43,887 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 01:28:02,218 - INFO - ***Accuracy - Full Training:         94.30%
+2016-11-30 01:28:06,851 - INFO - ***Accuracy - Full Validation:       92.31%
+2016-11-30 01:28:09,369 - INFO - ***Accuracy - Full Test:             82.88%
+2016-11-30 01:29:10,728 - DEBUG - Epoch:    62;  cost=0.370614231
+2016-11-30 01:29:10,741 - DEBUG - Accuracy(training batch): 87.50%
+2016-11-30 01:30:11,944 - DEBUG - Epoch:    63;  cost=0.254539967
+2016-11-30 01:30:11,957 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 01:31:13,150 - DEBUG - Epoch:    64;  cost=0.235587120
+2016-11-30 01:31:13,163 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 01:32:14,293 - DEBUG - Epoch:    65;  cost=0.106770754
+2016-11-30 01:32:14,305 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-30 01:33:15,558 - DEBUG - Epoch:    66;  cost=0.128478304
+2016-11-30 01:33:15,570 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 01:34:17,107 - DEBUG - Epoch:    67;  cost=0.620657504
+2016-11-30 01:34:17,119 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 01:35:18,656 - DEBUG - Epoch:    68;  cost=0.088104784
+2016-11-30 01:35:18,669 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 01:36:19,982 - DEBUG - Epoch:    69;  cost=0.089749925
+2016-11-30 01:36:19,994 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 01:37:21,517 - DEBUG - Epoch:    70;  cost=0.474082351
+2016-11-30 01:37:21,530 - DEBUG - Accuracy(training batch): 89.06%
+2016-11-30 01:38:23,130 - DEBUG - Epoch:    71;  cost=0.287180245
+2016-11-30 01:38:23,143 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 01:38:41,562 - INFO - ***Accuracy - Full Training:         94.50%
+2016-11-30 01:38:51,546 - INFO - ***Accuracy - Full Validation:       92.77%
+2016-11-30 01:38:54,358 - INFO - ***Accuracy - Full Test:             82.83%
+2016-11-30 01:39:55,629 - DEBUG - Epoch:    72;  cost=0.392842561
+2016-11-30 01:39:55,641 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 01:40:57,009 - DEBUG - Epoch:    73;  cost=0.174905136
+2016-11-30 01:40:57,021 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 01:41:58,501 - DEBUG - Epoch:    74;  cost=0.170732960
+2016-11-30 01:41:58,514 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 01:42:59,910 - DEBUG - Epoch:    75;  cost=0.195679724
+2016-11-30 01:42:59,922 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 01:44:01,379 - DEBUG - Epoch:    76;  cost=0.855094671
+2016-11-30 01:44:01,392 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 01:45:02,496 - DEBUG - Epoch:    77;  cost=0.200939000
+2016-11-30 01:45:02,509 - DEBUG - Accuracy(training batch): 87.50%
+2016-11-30 01:46:03,905 - DEBUG - Epoch:    78;  cost=0.478771865
+2016-11-30 01:46:03,918 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 01:47:05,346 - DEBUG - Epoch:    79;  cost=0.028704233
+2016-11-30 01:47:05,359 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 01:48:06,789 - DEBUG - Epoch:    80;  cost=0.685052633
+2016-11-30 01:48:06,802 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 01:49:08,236 - DEBUG - Epoch:    81;  cost=0.026320921
+2016-11-30 01:49:08,248 - DEBUG - Accuracy(training batch): 100.00%
+2016-11-30 01:49:26,572 - INFO - ***Accuracy - Full Training:         95.03%
+2016-11-30 01:49:31,199 - INFO - ***Accuracy - Full Validation:       93.11%
+2016-11-30 01:49:33,715 - INFO - ***Accuracy - Full Test:             82.60%
+2016-11-30 01:50:35,669 - DEBUG - Epoch:    82;  cost=0.282695383
+2016-11-30 01:50:35,682 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-30 01:51:37,296 - DEBUG - Epoch:    83;  cost=0.405547917
+2016-11-30 01:51:37,309 - DEBUG - Accuracy(training batch): 87.50%
+2016-11-30 01:52:38,848 - DEBUG - Epoch:    84;  cost=0.056485392
+2016-11-30 01:52:38,862 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 01:53:40,224 - DEBUG - Epoch:    85;  cost=0.132968441
+2016-11-30 01:53:40,237 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 01:54:41,663 - DEBUG - Epoch:    86;  cost=0.529762149
+2016-11-30 01:54:41,676 - DEBUG - Accuracy(training batch): 98.44%
+2016-11-30 01:55:43,234 - DEBUG - Epoch:    87;  cost=0.065397188
+2016-11-30 01:55:43,247 - DEBUG - Accuracy(training batch): 98.44%
+2016-11-30 01:56:44,921 - DEBUG - Epoch:    88;  cost=0.326003015
+2016-11-30 01:56:44,934 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-30 01:57:46,611 - DEBUG - Epoch:    89;  cost=0.198918253
+2016-11-30 01:57:46,623 - DEBUG - Accuracy(training batch): 98.44%
+2016-11-30 01:58:48,343 - DEBUG - Epoch:    90;  cost=0.124326862
+2016-11-30 01:58:48,357 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 01:59:50,394 - DEBUG - Epoch:    91;  cost=0.105627574
+2016-11-30 01:59:50,407 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 02:00:08,770 - INFO - ***Accuracy - Full Training:         95.30%
+2016-11-30 02:00:13,397 - INFO - ***Accuracy - Full Validation:       93.59%
+2016-11-30 02:00:15,917 - INFO - ***Accuracy - Full Test:             83.46%
+2016-11-30 02:01:17,737 - DEBUG - Epoch:    92;  cost=0.214078695
+2016-11-30 02:01:17,750 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 02:02:19,594 - DEBUG - Epoch:    93;  cost=0.649567485
+2016-11-30 02:02:19,607 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 02:03:21,392 - DEBUG - Epoch:    94;  cost=0.222646236
+2016-11-30 02:03:21,405 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 02:04:23,023 - DEBUG - Epoch:    95;  cost=0.117791496
+2016-11-30 02:04:23,036 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 02:05:25,012 - DEBUG - Epoch:    96;  cost=0.691010118
+2016-11-30 02:05:25,024 - DEBUG - Accuracy(training batch): 89.06%
+2016-11-30 02:06:26,766 - DEBUG - Epoch:    97;  cost=0.335980803
+2016-11-30 02:06:26,779 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 02:07:28,645 - DEBUG - Epoch:    98;  cost=0.448583484
+2016-11-30 02:07:28,658 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 02:08:30,412 - DEBUG - Epoch:    99;  cost=0.827045619
+2016-11-30 02:08:30,425 - DEBUG - Accuracy(training batch): 87.50%
+2016-11-30 02:09:32,176 - DEBUG - Epoch:   100;  cost=0.361100554
+2016-11-30 02:09:32,188 - DEBUG - Accuracy(training batch): 98.44%
+2016-11-30 02:10:34,173 - DEBUG - Epoch:   101;  cost=0.543653667
+2016-11-30 02:10:34,186 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 02:10:52,564 - INFO - ***Accuracy - Full Training:         93.76%
+2016-11-30 02:10:57,221 - INFO - ***Accuracy - Full Validation:       92.07%
+2016-11-30 02:10:59,737 - INFO - ***Accuracy - Full Test:             81.99%
+2016-11-30 02:12:01,758 - DEBUG - Epoch:   102;  cost=0.245878100
+2016-11-30 02:12:01,770 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 02:13:04,008 - DEBUG - Epoch:   103;  cost=0.095281795
+2016-11-30 02:13:04,022 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 02:14:06,111 - DEBUG - Epoch:   104;  cost=0.235745937
+2016-11-30 02:14:06,123 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 02:15:08,164 - DEBUG - Epoch:   105;  cost=0.073877551
+2016-11-30 02:15:08,177 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 02:16:09,972 - DEBUG - Epoch:   106;  cost=0.457824498
+2016-11-30 02:16:09,985 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 02:17:11,862 - DEBUG - Epoch:   107;  cost=0.239008486
+2016-11-30 02:17:11,875 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 02:18:13,842 - DEBUG - Epoch:   108;  cost=1.054663539
+2016-11-30 02:18:13,861 - DEBUG - Accuracy(training batch): 75.00%
+2016-11-30 02:19:16,037 - DEBUG - Epoch:   109;  cost=0.844960332
+2016-11-30 02:19:16,050 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 02:20:18,337 - DEBUG - Epoch:   110;  cost=0.409836352
+2016-11-30 02:20:18,349 - DEBUG - Accuracy(training batch): 89.06%
+2016-11-30 02:21:20,527 - DEBUG - Epoch:   111;  cost=0.266495526
+2016-11-30 02:21:20,539 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 02:21:38,855 - INFO - ***Accuracy - Full Training:         93.97%
+2016-11-30 02:21:43,573 - INFO - ***Accuracy - Full Validation:       92.30%
+2016-11-30 02:21:46,833 - INFO - ***Accuracy - Full Test:             82.86%
+2016-11-30 02:22:49,042 - DEBUG - Epoch:   112;  cost=0.117041826
+2016-11-30 02:22:49,054 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 02:23:51,191 - DEBUG - Epoch:   113;  cost=0.179243743
+2016-11-30 02:23:51,203 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 02:24:53,207 - DEBUG - Epoch:   114;  cost=0.342713952
+2016-11-30 02:24:53,219 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 02:25:55,335 - DEBUG - Epoch:   115;  cost=0.046253517
+2016-11-30 02:25:55,347 - DEBUG - Accuracy(training batch): 98.44%
+2016-11-30 02:26:57,682 - DEBUG - Epoch:   116;  cost=0.376850247
+2016-11-30 02:26:57,695 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 02:27:59,817 - DEBUG - Epoch:   117;  cost=0.098091826
+2016-11-30 02:27:59,829 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 02:29:02,160 - DEBUG - Epoch:   118;  cost=0.119091898
+2016-11-30 02:29:02,173 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 02:30:04,420 - DEBUG - Epoch:   119;  cost=0.198323056
+2016-11-30 02:30:04,433 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 02:31:06,868 - DEBUG - Epoch:   120;  cost=0.175215900
+2016-11-30 02:31:06,881 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 02:32:09,348 - DEBUG - Epoch:   121;  cost=0.199879885
+2016-11-30 02:32:09,361 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-30 02:32:27,661 - INFO - ***Accuracy - Full Training:         95.67%
+2016-11-30 02:32:32,280 - INFO - ***Accuracy - Full Validation:       93.90%
+2016-11-30 02:32:34,806 - INFO - ***Accuracy - Full Test:             83.65%
+2016-11-30 02:33:37,018 - DEBUG - Epoch:   122;  cost=0.676332057
+2016-11-30 02:33:37,031 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 02:34:39,373 - DEBUG - Epoch:   123;  cost=0.161485612
+2016-11-30 02:34:39,386 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 02:35:41,764 - DEBUG - Epoch:   124;  cost=1.272082448
+2016-11-30 02:35:41,777 - DEBUG - Accuracy(training batch): 81.25%
+2016-11-30 02:36:44,172 - DEBUG - Epoch:   125;  cost=0.176823765
+2016-11-30 02:36:44,185 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 02:37:47,011 - DEBUG - Epoch:   126;  cost=0.095529996
+2016-11-30 02:37:47,024 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 02:38:49,397 - DEBUG - Epoch:   127;  cost=0.381000876
+2016-11-30 02:38:49,410 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 02:39:52,124 - DEBUG - Epoch:   128;  cost=0.409771681
+2016-11-30 02:39:52,137 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 02:40:54,444 - DEBUG - Epoch:   129;  cost=0.106305979
+2016-11-30 02:40:54,457 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 02:41:56,953 - DEBUG - Epoch:   130;  cost=0.812057912
+2016-11-30 02:41:56,966 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 02:42:59,462 - DEBUG - Epoch:   131;  cost=0.817055762
+2016-11-30 02:42:59,475 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 02:43:17,831 - INFO - ***Accuracy - Full Training:         94.86%
+2016-11-30 02:43:22,449 - INFO - ***Accuracy - Full Validation:       93.18%
+2016-11-30 02:43:24,969 - INFO - ***Accuracy - Full Test:             83.60%
+2016-11-30 02:44:27,327 - DEBUG - Epoch:   132;  cost=0.114906043
+2016-11-30 02:44:27,340 - DEBUG - Accuracy(training batch): 100.00%
+2016-11-30 02:45:29,737 - DEBUG - Epoch:   133;  cost=0.131501988
+2016-11-30 02:45:29,750 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 02:46:32,177 - DEBUG - Epoch:   134;  cost=0.415908575
+2016-11-30 02:46:32,190 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 02:47:34,713 - DEBUG - Epoch:   135;  cost=0.132800847
+2016-11-30 02:47:34,726 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 02:48:37,258 - DEBUG - Epoch:   136;  cost=0.295617908
+2016-11-30 02:48:37,271 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 02:49:40,370 - DEBUG - Epoch:   137;  cost=0.364577919
+2016-11-30 02:49:40,383 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 02:50:42,987 - DEBUG - Epoch:   138;  cost=0.191769049
+2016-11-30 02:50:42,999 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-30 02:51:45,571 - DEBUG - Epoch:   139;  cost=0.272307515
+2016-11-30 02:51:45,584 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 02:52:48,187 - DEBUG - Epoch:   140;  cost=0.157831088
+2016-11-30 02:52:48,203 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 02:53:50,663 - DEBUG - Epoch:   141;  cost=0.137504265
+2016-11-30 02:53:50,676 - DEBUG - Accuracy(training batch): 89.06%
+2016-11-30 02:54:09,004 - INFO - ***Accuracy - Full Training:         94.93%
+2016-11-30 02:54:13,621 - INFO - ***Accuracy - Full Validation:       93.35%
+2016-11-30 02:54:16,141 - INFO - ***Accuracy - Full Test:             82.58%
+2016-11-30 02:55:18,866 - DEBUG - Epoch:   142;  cost=1.474847436
+2016-11-30 02:55:18,879 - DEBUG - Accuracy(training batch): 85.94%
+2016-11-30 02:56:21,311 - DEBUG - Epoch:   143;  cost=0.128543839
+2016-11-30 02:56:21,324 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 02:57:24,109 - DEBUG - Epoch:   144;  cost=0.463473469
+2016-11-30 02:57:24,122 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 02:58:26,794 - DEBUG - Epoch:   145;  cost=0.238472685
+2016-11-30 02:58:26,807 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 02:59:29,854 - DEBUG - Epoch:   146;  cost=0.705450416
+2016-11-30 02:59:29,867 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 03:00:32,387 - DEBUG - Epoch:   147;  cost=0.342819631
+2016-11-30 03:00:32,400 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 03:01:34,826 - DEBUG - Epoch:   148;  cost=0.117019430
+2016-11-30 03:01:34,838 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 03:02:37,260 - DEBUG - Epoch:   149;  cost=0.289835870
+2016-11-30 03:02:37,272 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-30 03:03:39,809 - DEBUG - Epoch:   150;  cost=0.410733998
+2016-11-30 03:03:39,822 - DEBUG - Accuracy(training batch): 87.50%
+2016-11-30 03:04:42,621 - DEBUG - Epoch:   151;  cost=0.795306146
+2016-11-30 03:04:42,634 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 03:05:01,036 - INFO - ***Accuracy - Full Training:         95.25%
+2016-11-30 03:05:05,659 - INFO - ***Accuracy - Full Validation:       93.62%
+2016-11-30 03:05:08,181 - INFO - ***Accuracy - Full Test:             83.35%
+2016-11-30 03:06:11,131 - DEBUG - Epoch:   152;  cost=0.362273157
+2016-11-30 03:06:11,144 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 03:07:14,038 - DEBUG - Epoch:   153;  cost=0.082111925
+2016-11-30 03:07:14,052 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 03:08:16,641 - DEBUG - Epoch:   154;  cost=0.162016734
+2016-11-30 03:08:16,654 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-30 03:09:19,265 - DEBUG - Epoch:   155;  cost=0.790195882
+2016-11-30 03:09:19,278 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 03:10:21,770 - DEBUG - Epoch:   156;  cost=0.608943343
+2016-11-30 03:10:21,782 - DEBUG - Accuracy(training batch): 89.06%
+2016-11-30 03:11:24,418 - DEBUG - Epoch:   157;  cost=0.216581181
+2016-11-30 03:11:24,431 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-30 03:12:27,087 - DEBUG - Epoch:   158;  cost=1.653335094
+2016-11-30 03:12:27,100 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 03:13:30,049 - DEBUG - Epoch:   159;  cost=0.092843190
+2016-11-30 03:13:30,061 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 03:14:32,660 - DEBUG - Epoch:   160;  cost=0.075226709
+2016-11-30 03:14:32,673 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 03:15:35,308 - DEBUG - Epoch:   161;  cost=0.644647360
+2016-11-30 03:15:35,321 - DEBUG - Accuracy(training batch): 85.94%
+2016-11-30 03:15:53,621 - INFO - ***Accuracy - Full Training:         82.86%
+2016-11-30 03:15:58,233 - INFO - ***Accuracy - Full Validation:       81.24%
+2016-11-30 03:16:00,765 - INFO - ***Accuracy - Full Test:             79.45%
+2016-11-30 03:17:03,499 - DEBUG - Epoch:   162;  cost=0.268176496
+2016-11-30 03:17:03,512 - DEBUG - Accuracy(training batch): 98.44%
+2016-11-30 03:18:06,502 - DEBUG - Epoch:   163;  cost=0.108153172
+2016-11-30 03:18:06,514 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 03:19:09,798 - DEBUG - Epoch:   164;  cost=0.507690191
+2016-11-30 03:19:09,810 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 03:20:12,680 - DEBUG - Epoch:   165;  cost=0.569618821
+2016-11-30 03:20:12,692 - DEBUG - Accuracy(training batch): 98.44%
+2016-11-30 03:21:15,559 - DEBUG - Epoch:   166;  cost=0.036643963
+2016-11-30 03:21:15,572 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 03:22:19,057 - DEBUG - Epoch:   167;  cost=0.011765680
+2016-11-30 03:22:19,069 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-30 03:23:22,131 - DEBUG - Epoch:   168;  cost=0.097905278
+2016-11-30 03:23:22,144 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-30 03:24:24,831 - DEBUG - Epoch:   169;  cost=0.278889745
+2016-11-30 03:24:24,845 - DEBUG - Accuracy(training batch): 98.44%
+2016-11-30 03:25:27,627 - DEBUG - Epoch:   170;  cost=0.079711132
+2016-11-30 03:25:27,640 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 03:26:30,211 - DEBUG - Epoch:   171;  cost=0.214465246
+2016-11-30 03:26:30,224 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-30 03:26:48,598 - INFO - ***Accuracy - Full Training:         94.20%
+2016-11-30 03:26:53,219 - INFO - ***Accuracy - Full Validation:       92.29%
+2016-11-30 03:26:55,762 - INFO - ***Accuracy - Full Test:             83.43%
+2016-11-30 03:27:58,389 - DEBUG - Epoch:   172;  cost=0.162578374
+2016-11-30 03:27:58,402 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 03:29:01,088 - DEBUG - Epoch:   173;  cost=1.866459608
+2016-11-30 03:29:01,101 - DEBUG - Accuracy(training batch): 89.06%
+2016-11-30 03:30:03,900 - DEBUG - Epoch:   174;  cost=0.220462233
+2016-11-30 03:30:03,912 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-30 03:31:06,861 - DEBUG - Epoch:   175;  cost=0.438167393
+2016-11-30 03:31:06,874 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 03:32:09,301 - DEBUG - Epoch:   176;  cost=0.008622969
+2016-11-30 03:32:09,313 - DEBUG - Accuracy(training batch): 98.44%
+2016-11-30 03:33:11,917 - DEBUG - Epoch:   177;  cost=1.528385401
+2016-11-30 03:33:11,930 - DEBUG - Accuracy(training batch): 87.50%
+2016-11-30 03:34:14,405 - DEBUG - Epoch:   178;  cost=0.323728293
+2016-11-30 03:34:14,418 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 03:35:17,077 - DEBUG - Epoch:   179;  cost=0.121883422
+2016-11-30 03:35:17,089 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-30 03:36:19,511 - DEBUG - Epoch:   180;  cost=0.501324177
+2016-11-30 03:36:19,524 - DEBUG - Accuracy(training batch): 98.44%
+2016-11-30 03:37:22,217 - DEBUG - Epoch:   181;  cost=0.460466653
+2016-11-30 03:37:22,230 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 03:37:40,544 - INFO - ***Accuracy - Full Training:         95.21%
+2016-11-30 03:37:45,159 - INFO - ***Accuracy - Full Validation:       93.67%
+2016-11-30 03:37:47,672 - INFO - ***Accuracy - Full Test:             84.33%
+2016-11-30 03:38:50,664 - DEBUG - Epoch:   182;  cost=0.076020822
+2016-11-30 03:38:50,677 - DEBUG - Accuracy(training batch): 98.44%
+2016-11-30 03:39:53,557 - DEBUG - Epoch:   183;  cost=0.037539586
+2016-11-30 03:39:53,569 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-30 03:40:56,180 - DEBUG - Epoch:   184;  cost=0.156201348
+2016-11-30 03:40:56,193 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 03:41:58,800 - DEBUG - Epoch:   185;  cost=0.063282788
+2016-11-30 03:41:58,813 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 03:43:01,116 - DEBUG - Epoch:   186;  cost=0.389394641
+2016-11-30 03:43:01,128 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 03:44:03,657 - DEBUG - Epoch:   187;  cost=0.811130881
+2016-11-30 03:44:03,670 - DEBUG - Accuracy(training batch): 70.31%
+2016-11-30 03:45:06,087 - DEBUG - Epoch:   188;  cost=0.128978163
+2016-11-30 03:45:06,100 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 03:46:08,919 - DEBUG - Epoch:   189;  cost=0.498195291
+2016-11-30 03:46:08,932 - DEBUG - Accuracy(training batch): 87.50%
+2016-11-30 03:47:11,692 - DEBUG - Epoch:   190;  cost=1.061386347
+2016-11-30 03:47:11,704 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 03:48:14,084 - DEBUG - Epoch:   191;  cost=0.322280586
+2016-11-30 03:48:14,097 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 03:48:32,411 - INFO - ***Accuracy - Full Training:         94.77%
+2016-11-30 03:48:37,032 - INFO - ***Accuracy - Full Validation:       93.49%
+2016-11-30 03:48:39,551 - INFO - ***Accuracy - Full Test:             83.96%
+2016-11-30 03:49:42,590 - DEBUG - Epoch:   192;  cost=0.297899306
+2016-11-30 03:49:42,603 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 03:50:45,221 - DEBUG - Epoch:   193;  cost=0.045155980
+2016-11-30 03:50:45,234 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-30 03:51:47,701 - DEBUG - Epoch:   194;  cost=0.140911236
+2016-11-30 03:51:47,714 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-30 03:52:50,670 - DEBUG - Epoch:   195;  cost=0.081102893
+2016-11-30 03:52:50,682 - DEBUG - Accuracy(training batch): 98.44%
+2016-11-30 03:53:53,410 - DEBUG - Epoch:   196;  cost=0.525079012
+2016-11-30 03:53:53,423 - DEBUG - Accuracy(training batch): 90.62%
+2016-11-30 03:54:56,290 - DEBUG - Epoch:   197;  cost=0.326790065
+2016-11-30 03:54:56,303 - DEBUG - Accuracy(training batch): 93.75%
+2016-11-30 03:55:59,060 - DEBUG - Epoch:   198;  cost=0.161638916
+2016-11-30 03:55:59,072 - DEBUG - Accuracy(training batch): 95.31%
+2016-11-30 03:57:02,079 - DEBUG - Epoch:   199;  cost=0.227498606
+2016-11-30 03:57:02,092 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-30 03:58:04,798 - DEBUG - Epoch:   200;  cost=0.435658693
+2016-11-30 03:58:04,810 - DEBUG - Accuracy(training batch): 96.88%
+2016-11-30 03:58:04,811 - INFO - Optimization Finished!
+2016-11-30 03:58:23,138 - INFO - ***Accuracy - Full Training:         91.85%
+2016-11-30 03:58:27,760 - INFO - ***Accuracy - Full Validation:       90.25%
+2016-11-30 03:58:30,283 - INFO - ***Accuracy - Full Test:             84.47%
+2016-11-30 03:58:30,284 - INFO - Time usage: 3:33:14
