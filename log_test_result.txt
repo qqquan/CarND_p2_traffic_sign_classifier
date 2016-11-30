@@ -4204,3 +4204,21 @@ Training Begins - AdamOptimizer
 2016-11-29 20:51:48,970 - INFO - ***Accuracy - Full Validation:       64.31%
 2016-11-29 20:51:51,576 - INFO - ***Accuracy - Full Test:             76.86%
 2016-11-29 20:51:51,577 - INFO - Time usage: 0:06:33
+2016-11-29 21:17:42,759 - DEBUG - Epoch:     1;  cost=1.042337298
+2016-11-29 21:17:42,772 - DEBUG - Accuracy(training batch): 89.06%
+2016-11-29 21:18:01,502 - INFO - ***Accuracy - Full Training:         89.45%
+2016-11-29 21:18:06,168 - INFO - ***Accuracy - Full Validation:       87.15%
+2016-11-29 21:18:08,701 - INFO - ***Accuracy - Full Test:             79.51%
+2016-11-29 21:19:09,325 - DEBUG - Epoch:     2;  cost=0.645101309
+2016-11-29 21:19:09,338 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-29 21:20:09,628 - DEBUG - Epoch:     3;  cost=0.499013662
+2016-11-29 21:20:09,642 - DEBUG - Accuracy(training batch): 89.06%
+2016-11-29 21:21:10,265 - DEBUG - Epoch:     4;  cost=0.318125367
+2016-11-29 21:21:10,278 - DEBUG - Accuracy(training batch): 92.19%
+2016-11-29 21:22:10,772 - DEBUG - Epoch:     5;  cost=1.361191034
+2016-11-29 21:22:10,785 - DEBUG - Accuracy(training batch): 65.62%
+2016-11-29 21:22:10,785 - INFO - Optimization Finished!
+2016-11-29 21:22:32,181 - INFO - ***Accuracy - Full Training:         66.69%
+2016-11-29 21:22:39,588 - INFO - ***Accuracy - Full Validation:       65.37%
+2016-11-29 21:22:42,289 - INFO - ***Accuracy - Full Test:             77.44%
+2016-11-29 21:22:42,290 - INFO - Time usage: 0:06:01
