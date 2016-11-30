@@ -1,0 +1,2 @@
+model_checkpoint_path: "TraffSign_Session_model_save"
+all_model_checkpoint_paths: "TraffSign_Session_model_save"
